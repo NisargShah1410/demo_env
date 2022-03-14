@@ -5,7 +5,7 @@ name: Using github environment features
 on:
   push:
     branches:
-      - main
+      - b1
 env:
   AZURE_WEBAPP_NAME: 'toolkitdemo-dotnetcore' 
   AZURE_WEBAPP_PACKAGE_PATH: .
