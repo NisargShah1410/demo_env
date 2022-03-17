@@ -5,13 +5,9 @@ name: CI build
 on:
   push:
     branches:
-      - main1
+      - main
 env:
-  AZURE_WEBAPP_NAME: 'toolkitdemo-dotnetcore' 
-  AZURE_WEBAPP_PACKAGE_PATH: .
   PATH_TO_SOLUTION: MySampleWebApp/MySampleWebApp.sln
-  PATH_TO_PROJ: MySampleWebAppTests1/MySampleWebAppTests1.csproj
-
 
 jobs:
   setup:
