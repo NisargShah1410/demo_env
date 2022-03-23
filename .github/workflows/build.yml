@@ -5,7 +5,7 @@ name: CI build
 on:
   push:
     branches:
-      - main1
+      - main
 env:
   PATH_TO_SOLUTION: MySampleWebApp/MySampleWebApp.sln
 
